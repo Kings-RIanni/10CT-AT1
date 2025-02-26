@@ -69,16 +69,10 @@ class Game:
 
     def update(self):
         """Update the game state (player, enemies, etc.)."""
-        pass
+        "Enemy collisions"
+        "Spawing"
 
     def draw(self):
-        self.screen.blit(self.background, (0,0))
         """Render all game elements to the screen."""
-        pass
-        # TODO: Draw the background
-        # self.screen.blit(?, (0, 0))
-
-        # TODO: Draw player, enemies, UI elements
-
-        # Refresh the screen
+        self.screen.blit(self.background, (0, 0))
         pygame.display.flip()
